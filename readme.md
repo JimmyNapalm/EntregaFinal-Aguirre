@@ -7,3 +7,7 @@ Se trata de una vidriera virtual para un local de ropa y accesorios.
 
 /*Contenido*/
 Un index y cinco paginas.
+
+/*Framework*/
+
+Grid+Flexbox con algo de Bootstrap.
