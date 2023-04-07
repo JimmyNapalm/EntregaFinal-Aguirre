@@ -42,8 +42,6 @@ a:active {
   color: white;
 }
 
-/* 1 - Pagina de bienvenida*/
-/* A) Grid de index*/
 /*fondo animado*/
 @keyframes animatedBackground {
   from {
@@ -52,128 +50,6 @@ a:active {
   to {
     background-position: 50% 0;
   }
-}
-#index {
-  min-height: 100vh;
-  background-image: url(../../images/indexbackgroundALT.png);
-  background-position: 0px 0px;
-  background-repeat: repeat-x;
-  animation: animatedBackground 10s linear infinite alternate;
-  display: grid;
-  grid-template-areas: "nav main aside" "nav main aside" "footer footer footer";
-  grid-template-columns: 3fr 4fr 3fr;
-  grid-template-rows: 1.7fr 6fr 0.6fr;
-  row-gap: 2px;
-}
-
-@media screen and (max-width: 719px) {
-  #index {
-    min-height: 100vh;
-    background-image: url(../../images/indexbackgroundALT.png);
-    background-position: 0px 0px;
-    background-repeat: repeat-x;
-    animation: animatedBackground 10s linear infinite alternate;
-    display: grid;
-    grid-template-areas: "main main main" "main main main" "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1.7fr 6fr 0.6fr;
-    row-gap: 2px;
-  }
-}
-#navIndex {
-  grid-area: nav;
-}
-
-@media screen and (max-width: 719px) {
-  #navIndex {
-    display: none;
-  }
-}
-#mainIndex {
-  grid-area: main;
-  border: 10px solid black;
-}
-
-#asideIndex {
-  grid-area: aside;
-}
-
-@media screen and (max-width: 719px) {
-  #asideIndex {
-    display: none;
-  }
-}
-/*Flex index*/
-#mainContentIndex {
-  height: 100%;
-  width: 100%;
-  padding: 5%;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  gap: 110px;
-  background: rgba(255, 255, 255, 0.3);
-  overflow: hidden;
-}
-
-#indexYamato {
-  font-size: 300%;
-  text-align: center;
-  justify-content: center;
-}
-
-@media screen and (max-width: 719px) {
-  #indexYamato {
-    font-size: 500%;
-    text-align: center;
-    justify-content: center;
-  }
-}
-#texto {
-  padding: 0.5%;
-  font-size: 140%;
-  text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-#logo {
-  height: auto;
-  max-width: 200px;
-  width: auto;
-  max-height: 200px;
-}
-
-/* Configuraciones boton de entrada*/
-#enterButton {
-  background-color: black;
-  padding: 9px;
-  width: 150px;
-  height: 50px;
-  color: white;
-  border: 2px solid black;
-  text-align: center;
-  font-size: 150%;
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-#enterButton a:link {
-  text-decoration: none;
-  color: white;
-}
-
-#enterButton a:visited {
-  text-decoration: none;
-  color: white;
-}
-
-#enterButton a:hover {
-  text-decoration: underline;
-  color: white;
-}
-
-#enterButton a:active {
-  text-decoration: none;
-  color: white;
 }
 
 /*Paginas*/
