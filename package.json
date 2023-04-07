@@ -1,12 +1,16 @@
 {
-  "name": "preentrega3-aguirre",
-  "version": "2.0.0",
-  "description": "",
+  "name": "entregafinal-aguirre",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Alejandro Aguirre",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22"
+  }
 }

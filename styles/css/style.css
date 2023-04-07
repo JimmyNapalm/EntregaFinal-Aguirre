@@ -16,7 +16,7 @@ img {
 
 @font-face {
   font-family: edosz;
-  src: url("../font/edo_sz/edosz.ttf");
+  src: url("../../font/edo_sz/edosz.ttf");
 }
 h1 {
   font-family: edosz;
@@ -55,7 +55,7 @@ a:active {
 }
 #index {
   min-height: 100vh;
-  background-image: url(../images/indexbackgroundALT.png);
+  background-image: url(../../images/indexbackgroundALT.png);
   background-position: 0px 0px;
   background-repeat: repeat-x;
   animation: animatedBackground 10s linear infinite alternate;
@@ -69,7 +69,7 @@ a:active {
 @media screen and (max-width: 719px) {
   #index {
     min-height: 100vh;
-    background-image: url(../images/indexbackgroundALT.png);
+    background-image: url(../../images/indexbackgroundALT.png);
     background-position: 0px 0px;
     background-repeat: repeat-x;
     animation: animatedBackground 10s linear infinite alternate;
@@ -343,7 +343,7 @@ header {
 /*Nav*/
 #navMain {
   grid-area: nav;
-  background-image: url(../images/mainBack.jpg);
+  background-image: url(../../images/mainBack.jpg);
   background-size: 500%;
   position: sticky;
 }
@@ -422,7 +422,7 @@ header {
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-image: url(../images/mainBack.jpg);
+  background-image: url(../../images/mainBack.jpg);
   background-position: 0px 0px;
   background-repeat: infinite;
   animation: animatedBackground 10s linear infinite alternate;
